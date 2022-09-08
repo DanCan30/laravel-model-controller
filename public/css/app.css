@@ -1,0 +1,24 @@
+div.movie-card {
+  border: 5px solid black;
+  margin: 1rem;
+  width: 30rem;
+  height: 50rem;
+}
+
+section.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+

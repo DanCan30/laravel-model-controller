@@ -1,6 +1,6 @@
 <header>
     <h1>
-        Header
+        <a href="{{ route('homepage') }}">Header</a>
     </h1>
 
     <a href="{{ route('movies') }}">Movies</a>
