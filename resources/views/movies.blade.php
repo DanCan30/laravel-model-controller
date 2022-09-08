@@ -7,11 +7,18 @@
 
         @forelse ($movies as $movie)
         <div class="movie-card">
+
+            <div class="movie-cover-container">
+                <img src="{{ $movie->cover }}" alt="Movie cover placeholder">
+            </div>
             <h3>
-                Title: {{ $movie->title }} - {{ $movie->date }}
+                {{ $movie->title }}
             </h3>
             <h4>
                 Original title: {{ $movie->original_title }}
+            </h4>
+            <h4>
+                Year: {{ $movie->date }}
             </h4>
             <h4>
                 Vote: {{ $movie->vote }}
