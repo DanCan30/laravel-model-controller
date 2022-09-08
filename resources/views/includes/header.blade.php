@@ -7,6 +7,9 @@
     
         <a href="{{ route('movies') }}">Movies</a>
 
+        <a href="{{ route('contacts') }}">Contacts</a>
+
+
     </div>
 
 </header>

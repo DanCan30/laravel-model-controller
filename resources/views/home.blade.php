@@ -3,7 +3,7 @@
 @section("title", "Home")
 
 @section("main-content")
-<div class="homepage-container">
+<div class="main-container">
 
     <h2>This is a HUGE homepage</h2>
 

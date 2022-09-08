@@ -16,10 +16,11 @@ div.movie-card {
 
         &:hover img {
         transform: translate(-4px, -4px);
-
-        }
-
-        img {
+        
+    }
+    
+    img {
+            z-index: 0;
             cursor: pointer;
             transition: all .3s;
             width: 100%;

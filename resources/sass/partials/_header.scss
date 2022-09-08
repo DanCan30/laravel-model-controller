@@ -1,6 +1,11 @@
 header {
     background-color: rgb(201, 196, 129);
     padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 
     .header-container {
         display: flex;
