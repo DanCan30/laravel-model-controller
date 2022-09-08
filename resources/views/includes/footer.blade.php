@@ -1,5 +1,5 @@
 <footer>
     <h4>
-        Footer
+        Some Footer stuff - Copyright by dd© {{ date("Y") }} - All Rights Reserved.
     </h4>
 </footer>

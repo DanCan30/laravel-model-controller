@@ -3,5 +3,9 @@
 @section("title", "Home")
 
 @section("main-content")
-    <h3>Homepage</h3>
+<div class="homepage-container">
+
+    <h2>This is a HUGE homepage</h2>
+
+</div>
 @endsection

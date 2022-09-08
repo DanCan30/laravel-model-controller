@@ -1,8 +1,12 @@
 <header>
-    <h1>
-        <a href="{{ route('homepage') }}">Header</a>
-    </h1>
+    <div class="container header-container">
 
-    <a href="{{ route('movies') }}">Movies</a>
+        <h1>
+            <a href="{{ route('homepage') }}">Homepage</a>
+        </h1>
+    
+        <a href="{{ route('movies') }}">Movies</a>
+
+    </div>
 
 </header>

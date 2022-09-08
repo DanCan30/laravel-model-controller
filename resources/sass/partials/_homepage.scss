@@ -1,0 +1,10 @@
+.homepage-container {
+    height: calc(100vh - 302px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: 5rem;
+    }
+}
